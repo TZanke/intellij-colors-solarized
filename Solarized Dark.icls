@@ -113,12 +113,6 @@
         <option name="FOREGROUND" value="859900" />
       </value>
     </option>
-    <option name="BASH.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="BASH.NUMBER">
       <value>
         <option name="FOREGROUND" value="cb4b16" />
@@ -170,6 +164,27 @@
         <option name="FOREGROUND" value="cb4b16" />
       </value>
     </option>
+    <option name="BREADCRUMBS_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="eee8d5" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_DEFAULT">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_HOVERED">
+      <value>
+        <option name="FOREGROUND" value="eee8d5" />
+        <option name="BACKGROUND" value="586e75" />
+      </value>
+    </option>
+    <option name="BREADCRUMBS_INACTIVE">
+      <value>
+        <option name="FOREGROUND" value="586e75" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="73642" />
@@ -196,12 +211,6 @@
       <value>
         <option name="FOREGROUND" value="8f9d6a" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="Block comment">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -459,7 +468,7 @@
     </option>
     <option name="CSS.COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="dc322f" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -707,7 +716,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="657b83" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -727,7 +736,8 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="657b83" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -737,8 +747,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="3d3d3d" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -783,7 +792,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="cb4b16" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -904,11 +913,6 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="DOC_COMMENT_TAG_VALUE">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
@@ -1133,6 +1137,46 @@
         <option name="FOREGROUND" value="d33682" />
       </value>
     </option>
+    <option name="GO_BRACES">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="GO_BRACKET">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="GO_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="GO_METHOD_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="GO_SCOPE_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="6c71c4" />
+      </value>
+    </option>
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
     <option name="GQL_ID">
       <value />
     </option>
@@ -1161,11 +1205,6 @@
     <option name="GString">
       <value>
         <option name="FOREGROUND" value="2aa198" />
-      </value>
-    </option>
-    <option name="Groovydoc comment">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="Groovydoc tag">
@@ -1241,7 +1280,7 @@
     </option>
     <option name="HTML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -1282,6 +1321,12 @@
         <option name="EFFECT_COLOR" value="b58900" />
         <option name="EFFECT_TYPE" value="5" />
         <option name="ERROR_STRIPE_COLOR" value="b58900" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="787878" />
+        <option name="BACKGROUND" value="3b3b3b" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -1352,16 +1397,6 @@
         <option name="FOREGROUND" value="839496" />
       </value>
     </option>
-    <option name="JAVA_BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
     <option name="JAVA_DOC_MARKUP">
       <value />
     </option>
@@ -1380,12 +1415,6 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b58900" />
-      </value>
-    </option>
-    <option name="JAVA_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="JAVA_NUMBER">
@@ -1503,16 +1532,6 @@
       <value>
         <option name="FOREGROUND" value="586e75" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JS.BRACES">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="JS.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
     <option name="JS.DOC_COMMENT">
@@ -1658,31 +1677,8 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="KOTLIN_BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="657b83" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="KOTLIN_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-      </value>
-    </option>
-    <option name="KOTLIN_BUILTIN_ANNOTATION">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="KOTLIN_CONSTRUCTOR">
       <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="KOTLIN_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="657b83" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1706,12 +1702,6 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-    <option name="KOTLIN_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
       <value>
         <option name="EFFECT_COLOR" value="6c71c4" />
@@ -1722,16 +1712,6 @@
       <value>
         <option name="FOREGROUND" value="6c71c4" />
         <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="KOTLIN_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="268bd2" />
-      </value>
-    </option>
-    <option name="KOTLIN_PARAMETER">
-      <value>
-        <option name="FOREGROUND" value="93a1a1" />
       </value>
     </option>
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
@@ -2279,11 +2259,6 @@
         <option name="FOREGROUND" value="b58800" />
       </value>
     </option>
-    <option name="PHP_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
     <option name="PHP_COMMENT">
       <value>
         <option name="FOREGROUND" value="586e75" />
@@ -2400,11 +2375,6 @@
         <option name="FOREGROUND" value="268bd2" />
       </value>
     </option>
-    <option name="PROPERTIES.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-      </value>
-    </option>
     <option name="PROPERTIES.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="d33682" />
@@ -2425,12 +2395,6 @@
       <value>
         <option name="FOREGROUND" value="268bd2" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PROPS.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PROPS.MACRO">
@@ -2513,6 +2477,11 @@
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="6c71c4" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
@@ -2655,7 +2624,7 @@
     </option>
     <option name="REGEXP.COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="dc322f" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2712,9 +2681,8 @@
     </option>
     <option name="REST.FIXED">
       <value>
-        <option name="FOREGROUND" value="73642" />
-        <option name="BACKGROUND" value="839496" />
-        <option name="EFFECT_TYPE" value="-1" />
+        <option name="FOREGROUND" value="93a1a1" />
+        <option name="BACKGROUND" value="73642" />
       </value>
     </option>
     <option name="REST.INLINE">
@@ -2750,6 +2718,40 @@
     <option name="REST.SECTION.HEADER">
       <value>
         <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="RHTML_COMMENT_ID">
+      <value>
+        <option name="FOREGROUND" value="586e75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="RHTML_EXPRESSION_END_ID">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="RHTML_EXPRESSION_START_ID">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="RHTML_OMIT_NEW_LINE_ID">
+      <value>
+        <option name="FOREGROUND" value="cc7833" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTING_BACKGROUND_ID">
+      <value />
+    </option>
+    <option name="RHTML_SCRIPTLET_END_ID">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="RHTML_SCRIPTLET_START_ID">
+      <value>
+        <option name="FOREGROUND" value="859900" />
       </value>
     </option>
     <option name="RUBY_BAD_CHARACTER">
@@ -2876,6 +2878,46 @@
     <option name="RUBY_WORDS">
       <value>
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 1 (outermost)">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 2">
+      <value>
+        <option name="FOREGROUND" value="dc322f" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 3">
+      <value>
+        <option name="FOREGROUND" value="cb4b16" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 4">
+      <value>
+        <option name="FOREGROUND" value="b58900" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 5">
+      <value>
+        <option name="FOREGROUND" value="859900" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 7">
+      <value>
+        <option name="FOREGROUND" value="87ff" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 8">
+      <value>
+        <option name="FOREGROUND" value="6c71c4" />
+      </value>
+    </option>
+    <option name="Rainbow Parens Level 9">
+      <value>
+        <option name="FOREGROUND" value="af005f" />
       </value>
     </option>
     <option name="Regular expression">
@@ -3080,7 +3122,7 @@
     </option>
     <option name="SQL_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="dc322f" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3179,12 +3221,6 @@
     <option name="Scala Bad character">
       <value>
         <option name="FOREGROUND" value="d33682" />
-      </value>
-    </option>
-    <option name="Scala Block comment">
-      <value>
-        <option name="FOREGROUND" value="586e75" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="Scala Class">
@@ -3436,11 +3472,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="TWIG_BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="dc322f" />
-      </value>
-    </option>
     <option name="TWIG_COMMENT">
       <value>
         <option name="FOREGROUND" value="586e75" />
@@ -3592,7 +3623,7 @@
     </option>
     <option name="XML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="586e75" />
+        <option name="FOREGROUND" value="dc322f" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -3799,6 +3830,52 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
+    <option name="org.rust.DOC_CODE">
+      <value>
+        <option name="FOREGROUND" value="839496" />
+      </value>
+    </option>
+    <option name="org.rust.DOC_HEADING">
+      <value>
+        <option name="FOREGROUND" value="cb4b16" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.ENUM">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="org.rust.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="org.rust.METHOD">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="org.rust.MUT_BINDING">
+      <value>
+        <option name="EFFECT_COLOR" value="839496" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="org.rust.STRUCT">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="org.rust.TRAIT">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
   </attributes>
 </scheme>
-
